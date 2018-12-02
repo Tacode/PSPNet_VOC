@@ -1,0 +1,11 @@
+{
+  "pascal":
+  {
+    "data_path": "/home/ycon/dataset/VOCdevkit/VOC2012/"
+  },
+
+  "sbd":
+  {
+    "data_path": "/home/ycon/dataset/VOCdevkit/VOC2012/benchmark_RELEASE/"
+  }
+}
