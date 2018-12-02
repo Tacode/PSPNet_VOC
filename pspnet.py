@@ -67,7 +67,7 @@ class PSPNet(nn.Module):
     def forward(self, x):
         start_time = time.time()
         f, class_f = self.feats(x)
-        print('Feature Extract Time:{:.4f}s'.format(time.time()-start_time))
+        #print('Feature Extract Time:{:.4f}s'.format(time.time()-start_time))
         p = self.psp(f)
         p = self.drop_1(p)
 
